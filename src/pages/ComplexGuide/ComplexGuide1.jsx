@@ -71,7 +71,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://brings.co.kr/ComplexGuide/intro"
+          href="https://locamobility.co.kr/ComplexGuide/intro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -86,11 +86,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://brings.co.kr/Main1.png"
+          content="https://locamobility.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://brings.co.kr/ComplexGuide/intro"
+          content="https://locamobility.co.kr/ComplexGuide/intro"
         />
         <meta property="og:site_name" content="창원 자이위브" />
 
@@ -106,11 +106,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://brings.co.kr/Main1.png"
+          content="https://locamobility.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://brings.co.kr/ComplexGuide/intro"
+          content="https://locamobility.co.kr/ComplexGuide/intro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -121,7 +121,7 @@ const ComplexGuide1 = () => {
 																			"@type": "WebPage",
 																			"name": "창원 자이위브 - 단지배치도",
 																			"description": "창원 자이위브의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.",
-																			"url": "https://brings.co.kr/ComplexGuide/intro"
+																			"url": "https://locamobility.co.kr/ComplexGuide/intro"
 																		}
 																		`}
         </script>
