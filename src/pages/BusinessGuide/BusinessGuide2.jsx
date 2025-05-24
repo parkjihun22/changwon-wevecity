@@ -13,7 +13,7 @@ import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
 const BusinessGuide2 = () => {
   const menuContents = [
     { title: "사업안내", url: "/BusinessGuide/intro" },
-    { title: "분양일정", url: "/BusinessGuide/plan" },
+    { title: "계약안내문", url: "/BusinessGuide/plan" },
 
   ];
   const [isScroll, setIsScroll] = useState(false);

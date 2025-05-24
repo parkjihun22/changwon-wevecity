@@ -47,7 +47,7 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `2,100여세대 랜드마크 창원 두산위브`,
+    text1: `2,300여세대 랜드마크 창원 두산위브`,
     text2: `창원을 대표할<br />
 			      브랜드 프리미엄`,
     link: "/BusinessGuide/intro",
