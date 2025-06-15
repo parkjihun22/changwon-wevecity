@@ -15,16 +15,16 @@ import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
 
 const FloorPlan2 = () => {
 	const menuContents = [
-		{ title: "54A", url: "/FloorPlan/59A" },
-		{ title: "54B", url: "/FloorPlan/59B" },
-		{ title: "59A", url: "/FloorPlan/84A" },
-		{ title: "59B", url: "/FloorPlan/84B" },
-		{ title: "74A", url: "/FloorPlan/74A" },
-		{ title: "74B", url: "/FloorPlan/74B" },
-		{ title: "84A", url: "/FloorPlan/114A" },
-		{ title: "84B", url: "/FloorPlan/114B" },
-		{ title: "102", url: "/FloorPlan/114C" },
-		{ title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
+		{ title: "54A1", url: "/FloorPlan/59A" },
+		{ title: "54A2", url: "/FloorPlan/59B" },
+		{ title: "59A3", url: "/FloorPlan/84A" },
+		{ title: "59A4", url: "/FloorPlan/84B" },
+		{ title: "59B1", url: "/FloorPlan/74A" },
+		{ title: "59B2", url: "/FloorPlan/74B" },
+		{ title: "59B3", url: "/FloorPlan/114A" },
+		{ title: "59C", url: "/FloorPlan/114B" },
+		{ title: "74B", url: "/FloorPlan/114C" },
+		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	
 	];
 
@@ -69,20 +69,20 @@ const FloorPlan2 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>대전 가오동 롯데캐슬더퍼스트 - 59B 평면안내 </h1>
-			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 대전 가오동 롯데캐슬더퍼스트의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+            <h1 className={styles.screenReaderOnly}>대전 롯데캐슬 더퍼스트 - 59B 평면안내 </h1>
+			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 대전 롯데캐슬 더퍼스트의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
 			</p>
 
 			<div className={styles.textBox}>
 				<div>대전의 눈부신 가치 위에</div>
-				<div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전 롯데캐슬 더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 가오동 롯데캐슬더퍼스트 54B 평면안내이미지"
+				alt="대전 롯데캐슬 더퍼스트 54B 평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

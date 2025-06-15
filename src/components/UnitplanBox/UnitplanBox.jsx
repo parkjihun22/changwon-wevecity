@@ -10,12 +10,10 @@ import room119B from "../../assets/UnitplanBox/page6.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const contents = [
-    { type: '54A㎡', src: room59A },
-    { type: '54B㎡', src: room59B },
-    { type: '59A㎡', src: room84A },
-    { type: '59B㎡', src: room84B },
-    { type: '74A㎡', src: room119A },
-    { type: '74B㎡', src: room119B },
+    { type: '59A[1,2,3]㎡', src: room59A },
+    { type: '59B[1,2,3]㎡', src: room59B },
+    { type: '59C㎡', src: room84A },
+    { type: '74B㎡', src: room84B },
 
 
 
@@ -82,13 +80,13 @@ const UnitplanBox = () => {
 
             <div className={styles.imgContainer}>
                 <AiOutlineLeft
-                    size={!isMobile? 150 : 60}
+                    size={!isMobile? 50 : 60}
                     color={isLeft ? '#d1af73' : '#eedec3'} // 조건에 맞게 색상 변경
                     onClick={isLeft ? leftArray : undefined} // isLeft가 true일 때만 클릭 가능
                 />  
                  <img className={`${styles.typeImg} ${animationClass}`} src={isImage} alt={istype.type} />
                 <AiOutlineRight
-                    size={!isMobile? 150 : 60}
+                    size={!isMobile? 50 : 60}
                     color={isRight ? '#d1af73' : '#eedec3'} // 조건에 맞게 색상 변경
                     onClick={isRight ? rightArray : undefined} // isRight가 true일 때만 클릭 가능
                 />

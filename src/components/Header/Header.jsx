@@ -25,12 +25,12 @@ const menuArray = [
     title: "사업개요",
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
-      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
   {
     title: "분양안내",
     subMenu: [
+      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
       { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
       { subTitle: "계약안내문", subUrl: "/BusinessGuide/documents" },
       { subTitle: "인지세 납부안내", subUrl: "/SalesInfo/SubscriptionGuide" },
@@ -56,15 +56,15 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "54A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "54B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "59A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "74A", subUrl: "/FloorPlan/74A" },
-      { subTitle: "74A", subUrl: "/FloorPlan/74B" },
-      { subTitle: "84A", subUrl: "/FloorPlan/114A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/114B" },
-      { subTitle: "102㎡", subUrl: "/FloorPlan/114C" },
+      { subTitle: "54A1", subUrl: "/FloorPlan/59A" },
+      { subTitle: "54A2", subUrl: "/FloorPlan/59B" },
+      { subTitle: "59A3", subUrl: "/FloorPlan/84A" },
+      { subTitle: "59A4", subUrl: "/FloorPlan/84B" },
+      { subTitle: "59B1", subUrl: "/FloorPlan/74A" },
+      { subTitle: "59B2", subUrl: "/FloorPlan/74B" },
+      { subTitle: "59B3", subUrl: "/FloorPlan/114A" },
+      { subTitle: "59C", subUrl: "/FloorPlan/114B" },
+      { subTitle: "74㎡", subUrl: "/FloorPlan/114C" },
     ],
   },
   // {
@@ -109,10 +109,10 @@ const Header = () => {
               <AiOutlineMenu
                 className={styles.icon}
                 size={25}
-                color="#1a3360"
+                color="#af895f"
               />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#1a3360" />
+              <IoCloseSharp className={styles.icon} size={25} color="#af895f" />
             )}
           </div>
           {isMobileMenu && (
@@ -128,7 +128,7 @@ const Header = () => {
           </Link>
           {/* 모바일에서는 기존 전화 연결 a 태그 유지 */}
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#1a3360" />
+            <IoCall className={styles.icon} size={25} color="#af895f" />
           </a>
         </div>
         {/* 모바일에서도 팝업을 렌더링 (최상위에서) */}

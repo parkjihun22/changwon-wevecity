@@ -12,8 +12,10 @@ import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러�
 
 const ComplexGuide1 = () => {
   const menuContents = [
+    { title: "분양일정", url: "/BusinessGuide/plan" },
     { title: "공급안내", url: "/SalesInfo/guide" },
-    { title: "체크포인트", url: "/SalesInfo/SubscriptionGuide" },
+    { title: "계약안내문", url: "/BusinessGuide/documents" },
+    { title: "인지세납부안내", url: "/SalesInfo/SubscriptionGuide" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -58,15 +60,15 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 가오동 롯데캐슬더퍼스트 - 인지세안내</title>
+        <title>대전 롯데캐슬 더퍼스트 - 인지세안내</title>
         <meta
           name="description"
-          content="대전 가오동 롯데캐슬더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="대전 롯데캐슬 더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
         />
-        <meta
-          name="keywords"
-          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
-        />
+				<meta
+					name="keywords"
+					content="대전 롯데캐슬 더퍼스트, 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬 더퍼스트모델하우스"
+				/>
         <link
           rel="canonical"
           href="https://locamobility.co.kr/SalesInfo/stampTax"
@@ -75,11 +77,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 인지세안내"
+          content="대전 롯데캐슬 더퍼스트 - 인지세안내"
         />
         <meta
           property="og:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.	"
+          content="대전 롯데캐슬 더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.	"
         />
         <meta
           property="og:image"
@@ -89,17 +91,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/SalesInfo/stampTax"
         />
-        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
+        <meta property="og:site_name" content="대전 롯데캐슬 더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 인지세안내"
+          content="대전 롯데캐슬 더퍼스트 - 인지세안내"
         />
         <meta
           name="twitter:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="대전 롯데캐슬 더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
         />
         <meta
           name="twitter:image"
@@ -112,7 +114,7 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 - 인지세안내",		"description": "대전 가오동 롯데캐슬더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",		"url": "https://locamobility.co.kr/SalesInfo/stampTax"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 롯데캐슬 더퍼스트 - 인지세안내",		"description": "대전 롯데캐슬 더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",		"url": "https://locamobility.co.kr/SalesInfo/stampTax"	}	`}
         </script>
       </Helmet>
 
@@ -124,10 +126,10 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트 - 인지세안내
+        대전 롯데캐슬 더퍼스트 - 인지세안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금
+        대전 롯데캐슬 더퍼스트의 인지세 안내 페이지는 분양과 관련된 세금
         정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를
         사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산
         방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수
@@ -136,14 +138,14 @@ const ComplexGuide1 = () => {
 
       <div className={styles.textBox}>
         <div>인지세 납부 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 대전 가오동 롯데캐슬더퍼스트</div>
+        <div>소수만 누리는 프리미엄 대전 롯데캐슬 더퍼스트</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="대전 가오동 롯데캐슬더퍼스트인지세안내-image1"
+        alt="대전 롯데캐슬 더퍼스트인지세안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       /> */}
 

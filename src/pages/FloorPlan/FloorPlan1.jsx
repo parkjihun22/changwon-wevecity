@@ -14,16 +14,16 @@ import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg"
 
 const FloorPlan1 = () => {
   const menuContents = [
-    { title: "54A", url: "/FloorPlan/59A" },
-    { title: "54B", url: "/FloorPlan/59B" },
-    { title: "59A", url: "/FloorPlan/84A" },
-    { title: "59B", url: "/FloorPlan/84B" },
-    { title: "74A", url: "/FloorPlan/74A" },
-    { title: "74B", url: "/FloorPlan/74B" },
-    { title: "84A", url: "/FloorPlan/114A" },
-    { title: "84B", url: "/FloorPlan/114B" },
-    { title: "102", url: "/FloorPlan/114C" },
-    { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
+    { title: "54A1", url: "/FloorPlan/59A" },
+    { title: "54A2", url: "/FloorPlan/59B" },
+    { title: "59A3", url: "/FloorPlan/84A" },
+    { title: "59A4", url: "/FloorPlan/84B" },
+    { title: "59B1", url: "/FloorPlan/74A" },
+    { title: "59B2", url: "/FloorPlan/74B" },
+    { title: "59B3", url: "/FloorPlan/114A" },
+    { title: "59C", url: "/FloorPlan/114B" },
+    { title: "74B", url: "/FloorPlan/114C" },
+    // { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -69,25 +69,25 @@ const FloorPlan1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 가오동 롯데캐슬더퍼스트 - 평면안내 </title>
+        <title>대전 롯데캐슬 더퍼스트 - 평면안내 </title>
         <meta
           name="description"
-          content=" 대전 가오동 롯데캐슬더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content=" 대전 롯데캐슬 더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
-        <meta
-          name="keywords"
-          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
-        />
+				<meta
+					name="keywords"
+					content="대전 롯데캐슬 더퍼스트, 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬 더퍼스트모델하우스"
+				/>
         <link rel="canonical" href="https://locamobility.co.kr/FloorPlan/59A" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 평면안내"
+          content="대전 롯데캐슬 더퍼스트 - 평면안내"
         />
         <meta
           property="og:description"
-          content=" 대전 가오동 롯데캐슬더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content=" 대전 롯데캐슬 더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
         <meta
           property="og:image"
@@ -97,17 +97,17 @@ const FloorPlan1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/FloorPlan/59A"
         />
-        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
+        <meta property="og:site_name" content="대전 롯데캐슬 더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 가오동 롯데캐슬더퍼스트 -  평면안내"
+          content="대전 롯데캐슬 더퍼스트 -  평면안내"
         />
         <meta
           name="twitter:description"
-          content=" 대전 가오동 롯데캐슬더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
+          content=" 대전 롯데캐슬 더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다."
         />
         <meta
           name="twitter:image"
@@ -120,7 +120,7 @@ const FloorPlan1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 -  평면안내",		"description": " 대전 가오동 롯데캐슬더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.",		"url": "https://locamobility.co.kr/FloorPlan/59A"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 롯데캐슬 더퍼스트 -  평면안내",		"description": " 대전 롯데캐슬 더퍼스트의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.",		"url": "https://locamobility.co.kr/FloorPlan/59A"	}	`}
         </script>
       </Helmet>
 
@@ -132,10 +132,10 @@ const FloorPlan1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트 - 평면안내
+        대전 롯데캐슬 더퍼스트 - 평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        59타입의평면 안내 페이지는 대전 가오동 롯데캐슬더퍼스트의 각 아파트 평면도를
+        59타입의평면 안내 페이지는 대전 롯데캐슬 더퍼스트의 각 아파트 평면도를
         제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활
         스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
         확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
@@ -143,14 +143,14 @@ const FloorPlan1 = () => {
 
       <div className={styles.textBox}>
         <div>대전의 눈부신 가치 위에</div>
-        <div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전 롯데캐슬 더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 가오동 롯데캐슬더퍼스트 54A 평면안내이미지"
+				alt="대전 롯데캐슬 더퍼스트 54A 평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

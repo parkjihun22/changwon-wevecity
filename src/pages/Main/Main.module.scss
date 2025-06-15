@@ -80,7 +80,7 @@
   font-family: 'Gyeonggi_Title_Medium';
   font-size: 2vw;
   font-weight: bold;
-  color: #1a3360; /* 강조 색상 */
+  color: #af895f; /* 강조 색상 */
   text-align: center;
   margin-top: 2vw;
 }
@@ -137,7 +137,7 @@
 @media (max-width: 900px) {
   .mainImageTextBox1 {
     position: absolute;
-    top: 35%; /* 모바일에서 더 상단에 위치 */
+    top: 23%; /* 모바일에서 더 상단에 위치 */
     left: 50%;
     transform: translateX(-50%); /* 중앙 정렬 */
     color: #ffffff;
@@ -171,7 +171,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #1a3360; /* 파랑 색상 */
+    color: #af895f; /* 파랑 색상 */
   }
 
   .greyText1 {
@@ -183,7 +183,7 @@
   .grandOpenText1 {
     font-size: 4vw;
     font-family: 'Gyeonggi_Title_Medium';
-    color: #1a3360; /* 강조 색상 */
+    color: #af895f; /* 강조 색상 */
     text-align: center;
     margin-top: 4vw;
   }
@@ -298,7 +298,7 @@
     .btn {
       margin-top: 3vw;
       padding: 1vw 1.5vw;
-      background-color: #1a3360;
+      background-color: #af895f;
       border-radius: 10vw;
       color: #ffffff;
       font-size: 1.2vw;
@@ -452,7 +452,7 @@
   }
 
   .box:hover {
-    background-color: #1a3360;
+    background-color: #af895f;
     color: #fff7ea;
   }
 }
@@ -493,7 +493,7 @@
       transform: translate(-50%, -50%);
       color: #ffffff;
       font-size: 1.5vw;
-      font-family: "HakgyoansimBareonbatangB";
+
     }
 
     .text2 {
@@ -502,7 +502,7 @@
       transform: translate(-50%, -50%);
       color: #d1af73;
       font-size: 2.5vw;
-      font-family: "GmarketSansMedium";
+
     }
 
     .text3 {
@@ -511,18 +511,16 @@
       transform: translate(-50%, -50%);
       color: #ffffff;
       font-size: 1.2vw;
-      font-family: "GmarketSansMedium";
     }
   }
 
   .textBox {
-    margin-top: 11vw;
+    margin-top: 9vw;
     margin-left: 4vw;
 
     width: 45vw;
 
     .text1 {
-      font-family: "HakgyoansimBareonbatangB";
       font-size: 2.2vw;
       color: #c98f25;
     }
@@ -534,7 +532,7 @@
       width: 100%;
       text-align: center;
       text-decoration: none;
-      font-family: "HakgyoansimBareonbatangB";
+
       font-size: 1.5vw;
       color: #d1af73;
     }
@@ -554,12 +552,12 @@
   .imageContainer {
     position: relative; /* 상대적 위치 지정 */
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     overflow: hidden; /* 이미지를 잘라내지 않도록 */
 
     .mainImage {
       width: 100%;
-      height: 80vh;
+      height: 90vh;
       object-fit: cover; /* 이미지 비율 유지하면서 가득 채우기 */
       filter: brightness(0.8) contrast(1.2); /* 이미지에 어두운 필터 적용, 대비 강조 */
     }
@@ -959,7 +957,7 @@
         margin: 4vw 0 0 2.5vw;
 
     .title {
-      color: #1a3360;
+      color: #af895f;
       font-family: "HakgyoansimBareonbatangB";
       font-size: 4vw;
       font-weight: 400;
@@ -983,7 +981,7 @@
       width: 100%;
 
       .textLine {
-        border: 3px solid #1a3360;
+        border: 3px solid #af895f;
         width: 0;
         height: 7vw;
       }
@@ -1025,12 +1023,12 @@
     width: 80%;
 
     .title {
-      color: #1a3360;
+      color: #af895f;
       font-size: 2vw;
       line-height: 3.5vw;
 
       span:first-of-type {
-        color: #1a3360;
+        color: #af895f;
         font-size: 2.5vw;
       }
     }
@@ -1045,13 +1043,13 @@
       width: 100%;
 
       .textLine {
-        border: 2px solid #1a3360;
+        border: 2px solid #af895f;
         width: 0;
         height: 3.5vw;
       }
 
       .subText {
-        color: #1a3360;
+        color: #af895f;
         font-size: 1.3vw;
         line-height: 2vw;
       }
@@ -1059,8 +1057,8 @@
   }
 
   img {
-    margin: 11vw 5vw 2vw 0;
-    width: 50vw;
+    margin: 5vw 5vw 2vw 0;
+    width: 40vw;
   }
 }
 
@@ -1086,7 +1084,7 @@
     height: auto;
 
     .title {
-      color: #1a3360;
+      color: #af895f;
       font-family: "NanumHumanTTFBold";
       font-size: 2vw;
       font-weight: 600;
@@ -1110,7 +1108,7 @@
       width: 100%;
 
       .textLine {
-        border: 4px solid #1a3360;
+        border: 4px solid #af895f;
         width: 0;
         height: 3.5vw;
       }
@@ -1251,14 +1249,14 @@
 .text3 {
   font-family: "NanumHumanTTFBold";
   font-size: 1.5rem;
-  color: #1a3360;
+  color: #af895f;
   font-weight: bold;
 }
 
 /* text4: 전화번호 */
 .text4 {
   font-size: 1.5rem;
-  color: #1a3360; /* 예: 붉은색 */
+  color: #af895f; /* 예: 붉은색 */
   font-weight: bold;
 }
 
@@ -1298,7 +1296,7 @@
 .registrationForm button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #1a3360;
+  background-color: #af895f;
   color: #fff;
   border: none;
   border-radius: 4px;

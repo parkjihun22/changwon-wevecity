@@ -72,14 +72,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 가오동 롯데캐슬더퍼스트 - 입지안내</title>
+        <title>대전 롯데캐슬 더퍼스트 - 입지안내</title>
         <meta
           name="description"
-          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 롯데캐슬 더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="keywords"
-          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
+          content="대전 롯데캐슬 더퍼스트, 대전 롯데캐슬더퍼스트, 대전 롯데캐슬 더퍼스트모델하우스"
         />
         <link
           rel="canonical"
@@ -89,11 +89,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 입지안내"
+          content="대전 롯데캐슬 더퍼스트 - 입지안내"
         />
         <meta
           property="og:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 롯데캐슬 더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           property="og:image"
@@ -103,17 +103,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
+        <meta property="og:site_name" content="대전 롯데캐슬 더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 입지안내"
+          content="대전 롯데캐슬 더퍼스트 - 입지안내"
         />
         <meta
           name="twitter:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 롯데캐슬 더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -126,7 +126,7 @@ const LocationEnvironment1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 - 입지안내",		"description": "대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://locamobility.co.kr/LocationEnvironment/intro"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 롯데캐슬 더퍼스트 - 입지안내",		"description": "대전 롯데캐슬 더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://locamobility.co.kr/LocationEnvironment/intro"	}	`}
         </script>
       </Helmet>
 
@@ -138,20 +138,20 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트 - 입지안내
+        대전 롯데캐슬 더퍼스트 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        대전 롯데캐슬 더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
 
       <div className={styles.textBox}>
-        <div>살수록 높아질 대전 가오동 롯데캐슬더퍼스트</div>
-        <div>도시를 압도할 자부심 대전 가오동 롯데캐슬더퍼스트</div>
+        <div>살수록 높아질 대전 롯데캐슬 더퍼스트</div>
+        <div>도시를 압도할 자부심 대전 롯데캐슬 더퍼스트</div>
       </div>
 
-      <img src={page1} className={styles.image2} alt="대전 가오동 롯데캐슬더퍼스트-image1" />
+      <img src={page1} className={styles.image2} alt="대전 롯데캐슬 더퍼스트-image1" />
 
    
       <div className={styles.section2}>

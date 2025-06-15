@@ -55,25 +55,23 @@ const Brand2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 가오동 롯데캐슬더퍼스트 - 홍보영상</title>
+        <title>대전 롯데캐슬 더퍼스트 - 홍보영상</title>
         <meta
           name="description"
-          content="대전 가오동 롯데캐슬더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="대전 롯데캐슬 더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
-        <meta
-          name="keywords"
-          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
+        <meta name="keywords" content="대전 롯데캐슬 더퍼스트, 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬 더퍼스트모델하우스"
         />
         <link rel="canonical" href="https://locamobility.co.kr/Brand/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 홍보영상"
+          content="대전 롯데캐슬 더퍼스트 - 홍보영상"
         />
         <meta
           property="og:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="대전 롯데캐슬 더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
         <meta
           property="og:image"
@@ -83,17 +81,17 @@ const Brand2 = () => {
           property="og:url"
           content="https://locamobility.co.kr/Brand/intro"
         />
-        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
+        <meta property="og:site_name" content="대전 롯데캐슬 더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 홍보영상"
+          content="대전 롯데캐슬 더퍼스트 - 홍보영상"
         />
         <meta
           name="twitter:description"
-          content="대전 가오동 롯데캐슬더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
+          content="대전 롯데캐슬 더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요."
         />
         <meta
           name="twitter:image"
@@ -110,8 +108,8 @@ const Brand2 = () => {
 															{
 																"@context": "https://schema.org",
 																"@type": "WebPage",
-																"name": "대전 가오동 롯데캐슬더퍼스트 - 홍보영상",
-																"description": "대전 가오동 롯데캐슬더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
+																"name": "대전 롯데캐슬 더퍼스트 - 홍보영상",
+																"description": "대전 롯데캐슬 더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
 					",
 																"url": "https://locamobility.co.kr/Brand/intro"
 															}
@@ -128,10 +126,10 @@ const Brand2 = () => {
 
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트 - 홍보영상
+        대전 롯데캐슬 더퍼스트 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신
+        대전 롯데캐슬 더퍼스트의 홍보영상을 통해 단지의 매력적인 디자인과 최신
         편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거
         환경, 평택의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로
         확인하세요.
@@ -140,13 +138,13 @@ const Brand2 = () => {
       <div
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       >
-        <div>대전 가오동 롯데캐슬더퍼스트가 눈부신 가치 위에</div>
+        <div>대전 롯데캐슬 더퍼스트가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
        <div className={styles.videoContainer}>
 				<YouTube
-					videoId="ljBXHPSwxPI"
+					videoId="FvpHX-PM7Jw"
 					opts={{
 						width: isMobile ? "400" : "1300",
 						height: isMobile ? "300" : "500",

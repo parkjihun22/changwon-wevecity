@@ -12,6 +12,7 @@ import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
 
 const BusinessGuide2 = () => {
   const menuContents = [
+    { title: "분양일정", url: "/BusinessGuide/plan" },
     { title: "공급안내", url: "/SalesInfo/guide" },
     { title: "계약안내문", url: "/BusinessGuide/documents" },
     { title: "인지세납부안내", url: "/SalesInfo/SubscriptionGuide" },
@@ -73,16 +74,16 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 가오동 롯데캐슬더퍼스트 - 당첨자 서류안내</title>
+        <title>대전 롯데캐슬 더퍼스트 - 당첨자 서류안내</title>
         <meta
           name="description"
-          content="대전 가오동 롯데캐슬더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+          content="대전 롯데캐슬 더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 			"
         />
-        <meta
-          name="keywords"
-          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
-        />
+				<meta
+					name="keywords"
+					content="대전 롯데캐슬 더퍼스트, 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬 더퍼스트모델하우스"
+				/>
         <link
           rel="canonical"
           href="https://locamobility.co.kr/BusinessGuide/documents"
@@ -91,11 +92,11 @@ const BusinessGuide2 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 당첨자 서류안내"
+          content="대전 롯데캐슬 더퍼스트 - 당첨자 서류안내"
         />
         <meta
           property="og:description"
-          content="대전 가오동 롯데캐슬더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+          content="대전 롯데캐슬 더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 			"
         />
         <meta
@@ -106,17 +107,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://locamobility.co.kr/BusinessGuide/documents"
         />
-        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
+        <meta property="og:site_name" content="대전 롯데캐슬 더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 가오동 롯데캐슬더퍼스트 - 당첨자 서류안내"
+          content="대전 롯데캐슬 더퍼스트 - 당첨자 서류안내"
         />
         <meta
           name="twitter:description"
-          content="대전 가오동 롯데캐슬더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
+          content="대전 롯데캐슬 더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -133,8 +134,8 @@ const BusinessGuide2 = () => {
 													{
 														"@context": "https://schema.org",
 														"@type": "WebPage",
-														"name": "대전 가오동 롯데캐슬더퍼스트 - 당첨자 서류안내",
-														"description": "대전 가오동 롯데캐슬더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다",
+														"name": "대전 롯데캐슬 더퍼스트 - 당첨자 서류안내",
+														"description": "대전 롯데캐슬 더퍼스트 청약 당첨자를 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다",
 														"url": "https://locamobility.co.kr/BusinessGuide/documents"
 													}
 													`}
@@ -147,7 +148,7 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 가오동 롯데캐슬더퍼스트- 계약서류안내
+        대전 롯데캐슬 더퍼스트- 계약서류안내
       </h1>
       <p className={styles.screenReaderOnly}>
         계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해
@@ -158,10 +159,10 @@ const BusinessGuide2 = () => {
 
       <div className={styles.textBox}>
         <div>대전의 눈부신 가치 위에</div>
-        <div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전 롯데캐슬 더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="대전 가오동 롯데캐슬더퍼스트 계약서류안내-image1" />
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="대전 롯데캐슬 더퍼스트 계약서류안내-image1" />
 
 
       <Footer />

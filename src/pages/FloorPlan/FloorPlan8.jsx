@@ -14,16 +14,16 @@ import page1 from "../../assets/FloorPlan/FloorPlan8/page1.jpg"
 
 const FloorPlan6 = () => {
 	const menuContents = [
-		{ title: "54A", url: "/FloorPlan/59A" },
-		{ title: "54B", url: "/FloorPlan/59B" },
-		{ title: "59A", url: "/FloorPlan/84A" },
-		{ title: "59B", url: "/FloorPlan/84B" },
-		{ title: "74A", url: "/FloorPlan/74A" },
-		{ title: "74B", url: "/FloorPlan/74B" },
-		{ title: "84A", url: "/FloorPlan/114A" },
-		{ title: "84B", url: "/FloorPlan/114B" },
-		{ title: "102", url: "/FloorPlan/114C" },
-		{ title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
+		{ title: "54A1", url: "/FloorPlan/59A" },
+		{ title: "54A2", url: "/FloorPlan/59B" },
+		{ title: "59A3", url: "/FloorPlan/84A" },
+		{ title: "59A4", url: "/FloorPlan/84B" },
+		{ title: "59B1", url: "/FloorPlan/74A" },
+		{ title: "59B2", url: "/FloorPlan/74B" },
+		{ title: "59B3", url: "/FloorPlan/114A" },
+		{ title: "59C", url: "/FloorPlan/114B" },
+		{ title: "74B", url: "/FloorPlan/114C" },
+		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	];
 
 	const [isScroll, setIsScroll] = useState(false);
@@ -67,14 +67,14 @@ const FloorPlan6 = () => {
 
 			<div className={styles.textBox}>
 				<div>대전의 눈부신 가치 위에</div>
-				<div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전 롯데캐슬 더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 가오동 롯데캐슬더퍼스트 84B 평면안내이미지"
+				alt="대전 롯데캐슬 더퍼스트 84B 평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

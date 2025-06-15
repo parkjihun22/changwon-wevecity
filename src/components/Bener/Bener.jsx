@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="대전 가오동 롯데캐슬더퍼스트-benerimage"
+                alt="대전 롯데캐슬 더퍼스트-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -40,7 +40,7 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '대전 가오동 롯데캐슬더퍼스트' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '대전 롯데캐슬 더퍼스트' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
@@ -50,7 +50,7 @@ const contents = (text, isLoaded) => {
                     대전의 최상단 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 대전 가오동 롯데캐슬더퍼스트와 함께합니다.
+                    NO.1 브랜드 대전 롯데캐슬 더퍼스트와 함께합니다.
                 </div>
             </>
         );
@@ -67,7 +67,7 @@ const contents = (text, isLoaded) => {
                     가장 높은 브랜드의 첫 시작
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    대전 가오동 롯데캐슬더퍼스트
+                    대전 롯데캐슬 더퍼스트
                 </div>
             </>
         );
@@ -92,7 +92,7 @@ const contents = (text, isLoaded) => {
                     편리한 생활을 위한 최적의 공간설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 대전 가오동 롯데캐슬더퍼스트, 처음이자 마지막으로 대전에 찾아옵니다
+                    소수에게만 허락된 대전 롯데캐슬 더퍼스트, 처음이자 마지막으로 대전에 찾아옵니다
                 </div>
             </>
         );
