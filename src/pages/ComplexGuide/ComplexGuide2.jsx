@@ -59,14 +59,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>창원 자이위브 - 호수배치도</title>
+        <title>대전 가오동 롯데캐슬더퍼스트 - 호수배치도</title>
         <meta
           name="description"
-          content="창원 자이위브의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
+          content="대전 가오동 롯데캐슬더퍼스트의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
         />
         <meta
           name="keywords"
-          content="창원 자이위브, 창원 메가시티 자이위브, 창원 자이위브모델하우스"
+          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
         />
         <link
           rel="canonical"
@@ -76,11 +76,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="창원 자이위브 - 호수배치도"
+          content="대전 가오동 롯데캐슬더퍼스트 - 호수배치도"
         />
         <meta
           property="og:description"
-          content="창원 자이위브의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.	"
+          content="대전 가오동 롯데캐슬더퍼스트의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.	"
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="창원 자이위브" />
+        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="창원 자이위브 - 호수배치도"
+          content="대전 가오동 롯데캐슬더퍼스트 - 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="창원 자이위브의 호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
+          content="대전 가오동 롯데캐슬더퍼스트의 호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
         />
         <meta
           name="twitter:image"
@@ -113,7 +113,7 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "창원 자이위브 - 호수배치도", "description": "창원 자이위브의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://locamobility.co.kr/ComplexGuide/detailintro"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 - 호수배치도", "description": "대전 가오동 롯데캐슬더퍼스트의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://locamobility.co.kr/ComplexGuide/detailintro"	}	`}
         </script>
       </Helmet>
 
@@ -122,7 +122,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        창원 자이위브 - 호수배치도
+        대전 가오동 롯데캐슬더퍼스트 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -131,7 +131,7 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>창원 자이위브가 눈부신 가치 위에</div>
+        <div>대전 가오동 롯데캐슬더퍼스트가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -139,7 +139,7 @@ const ComplexGuide1 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="창원 자이위브 호수배치도-image1"
+				alt="대전 가오동 롯데캐슬더퍼스트 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> 
 

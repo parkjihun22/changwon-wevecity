@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="창원 자이위브-benerimage"
+                alt="대전 가오동 롯데캐슬더퍼스트-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '창원 자이위브' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '대전 가오동 롯데캐슬더퍼스트' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    창원의 최상단 중심
+                    대전의 최상단 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 창원 자이위브와 함께합니다.
+                    NO.1 브랜드 대전 가오동 롯데캐슬더퍼스트와 함께합니다.
                 </div>
             </>
         );
@@ -61,13 +61,13 @@ const contents = (text, isLoaded) => {
                     자이와 위브가 선택한 새도시!
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    창원삼성전자캠퍼스 · 기흥역 펜타역세권 프리미엄
+                    대전삼성전자캠퍼스 · 기흥역 펜타역세권 프리미엄
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     가장 높은 브랜드의 첫 시작
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    창원 자이위브
+                    대전 가오동 롯데캐슬더퍼스트
                 </div>
             </>
         );
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 창원 메가시티 자이위브에서 펼쳐집니다
+                    기대하던 모든 프리미엄이 대전 롯데캐슬더퍼스트에서 펼쳐집니다
                 </div>
             </>
         );
@@ -92,7 +92,7 @@ const contents = (text, isLoaded) => {
                     편리한 생활을 위한 최적의 공간설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 창원 자이위브, 처음이자 마지막으로 창원에 찾아옵니다
+                    소수에게만 허락된 대전 가오동 롯데캐슬더퍼스트, 처음이자 마지막으로 대전에 찾아옵니다
                 </div>
             </>
         );

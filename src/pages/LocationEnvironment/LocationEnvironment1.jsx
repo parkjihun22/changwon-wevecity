@@ -21,9 +21,9 @@ import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 
 const LocationSection = [
-	{ img: section2Image1, titleText: "확정된 개발호재로<br />창원을 더 새롭게 살수록 높아지는 미래가치", contentText: "가덕도 신공항 예정 <br />진해신항 계획 등 <br /> 더 가깝게 만나는 비전과 프리미엄" },
+	{ img: section2Image1, titleText: "확정된 개발호재로<br />대전을 더 새롭게 살수록 높아지는 미래가치", contentText: "가덕도 신공항 예정 <br />진해신항 계획 등 <br /> 더 가깝게 만나는 비전과 프리미엄" },
 	{ img: section2Image2, titleText: "남다른 혁신설계", contentText: "선호도 높은 중·대형 평면 설계 및 다양하고 넉넉한 수납공간 <br /> 조성 등와이드하고 스마트하게 누리는공간" },
-	{ img: section2Image3, titleText: "마산·창원·진해를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "진해산업로, 진해대로<br />남해고속도로 등 <br /> 부산을 빠르게 잇는 광역교통" },
+	{ img: section2Image3, titleText: "마산·대전·진해를 더 빠르게<br />광역으로 통하는 특급 교통", contentText: "진해산업로, 진해대로<br />남해고속도로 등 <br /> 부산을 빠르게 잇는 광역교통" },
 	{ img: section2Image4, titleText: "학교를 더 가깝게 한걸음에<br /> 안심학세권 프리미엄", contentText: "단지 바로 앞 처인초,중교 · 처인고교 <br />학원가 조성등 도보거리에 누리는 <br /> 원스톱 안심교육환경" },
 	{ img: section2Image5, titleText: "압도적인 브랜드 프리미엄<br />1군브랜드 ", contentText: "GS건설 , 두산위브와 함께하는<br /> 압도적인 브랜드 프리미엄" },
 	{ img: section2Image6, titleText: "편리한 생활중심<br />", contentText: "도보거리에 <br />홈플러스, 롯데마트, 연세에스 병원 등<br />풍부한 인프라로 편리한 생활" },
@@ -72,14 +72,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>창원 자이위브 - 입지안내</title>
+        <title>대전 가오동 롯데캐슬더퍼스트 - 입지안내</title>
         <meta
           name="description"
-          content="창원 자이위브의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="keywords"
-          content="창원 자이위브, 창원 메가시티 자이위브, 창원 자이위브모델하우스"
+          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
         />
         <link
           rel="canonical"
@@ -89,11 +89,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="창원 자이위브 - 입지안내"
+          content="대전 가오동 롯데캐슬더퍼스트 - 입지안내"
         />
         <meta
           property="og:description"
-          content="창원 자이위브의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           property="og:image"
@@ -103,17 +103,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="창원 자이위브" />
+        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="창원 자이위브 - 입지안내"
+          content="대전 가오동 롯데캐슬더퍼스트 - 입지안내"
         />
         <meta
           name="twitter:description"
-          content="창원 자이위브의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -126,7 +126,7 @@ const LocationEnvironment1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "창원 자이위브 - 입지안내",		"description": "창원 자이위브의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://locamobility.co.kr/LocationEnvironment/intro"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 - 입지안내",		"description": "대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",		"url": "https://locamobility.co.kr/LocationEnvironment/intro"	}	`}
         </script>
       </Helmet>
 
@@ -138,20 +138,20 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        창원 자이위브 - 입지안내
+        대전 가오동 롯데캐슬더퍼스트 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        창원 자이위브의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        대전 가오동 롯데캐슬더퍼스트의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
 
       <div className={styles.textBox}>
-        <div>살수록 높아질 창원 자이위브</div>
-        <div>도시를 압도할 자부심 창원 자이위브</div>
+        <div>살수록 높아질 대전 가오동 롯데캐슬더퍼스트</div>
+        <div>도시를 압도할 자부심 대전 가오동 롯데캐슬더퍼스트</div>
       </div>
 
-      <img src={page1} className={styles.image2} alt="창원 자이위브-image1" />
+      <img src={page1} className={styles.image2} alt="대전 가오동 롯데캐슬더퍼스트-image1" />
 
    
       <div className={styles.section2}>

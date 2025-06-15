@@ -61,15 +61,15 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>창원 자이위브 - 분양일정</title>
+        <title>대전 가오동 롯데캐슬더퍼스트 - 분양일정</title>
         <meta
           name="description"
-          content="창원 자이위브의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 창원 자이위브의 고급스러운 주거공간에서 미래를 계획해보세요.
+          content="대전 가오동 롯데캐슬더퍼스트의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 대전 가오동 롯데캐슬더퍼스트의 고급스러운 주거공간에서 미래를 계획해보세요.
 "
         />
         <meta
           name="keywords"
-          content="창원 자이위브, 창원 메가시티 자이위브, 창원 자이위브모델하우스"
+          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
         />
         <link
           rel="canonical"
@@ -79,11 +79,11 @@ const BusinessGuide2 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="창원 자이위브 - 분양일정"
+          content="대전 가오동 롯데캐슬더퍼스트 - 분양일정"
         />
         <meta
           property="og:description"
-          content="창원 자이위브의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 창원 자이위브의 고급스러운 주거공간에서 미래를 계획해보세요.
+          content="대전 가오동 롯데캐슬더퍼스트의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 대전 가오동 롯데캐슬더퍼스트의 고급스러운 주거공간에서 미래를 계획해보세요.
 "
         />
         <meta
@@ -94,17 +94,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://locamobility.co.kr/BusinessGuide/plan"
         />
-        <meta property="og:site_name" content="창원 자이위브" />
+        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="창원 자이위브 - 분양일정"
+          content="대전 가오동 롯데캐슬더퍼스트 - 분양일정"
         />
         <meta
           name="twitter:description"
-          content="창원 자이위브의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 창원 자이위브의 고급스러운 주거공간에서 미래를 계획해보세요."
+          content="대전 가오동 롯데캐슬더퍼스트의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 대전 가오동 롯데캐슬더퍼스트의 고급스러운 주거공간에서 미래를 계획해보세요."
         />
         <meta
           name="twitter:image"
@@ -121,8 +121,8 @@ const BusinessGuide2 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "창원 자이위브 - 분양일정",
-											"description": "창원 자이위브의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 창원 자이위브의 고급스러운 주거공간에서 미래를 계획해보세요.",
+											"name": "대전 가오동 롯데캐슬더퍼스트 - 분양일정",
+											"description": "대전 가오동 롯데캐슬더퍼스트의 최신 분양일정을 확인하세요. 청약 일정, 분양 절차, 주요 조건을 명확히 안내하여 분양 준비에 필요한 정보를 제공합니다. 평택에서 새로운 라이프스타일을 시작할 기회를 놓치지 마세요. 대전 가오동 롯데캐슬더퍼스트의 고급스러운 주거공간에서 미래를 계획해보세요.",
 											"url": "https://locamobility.co.kr/BusinessGuide/plan"
 										}
 										`}
@@ -137,10 +137,10 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        창원 자이위브 - 분양일정
+        대전 가오동 롯데캐슬더퍼스트 - 분양일정
       </h1>
       <p className={styles.screenReaderOnly}>
-        창원 자이위브의 분양 일정은 중요한 날짜들을 안내하는 핵심
+        대전 가오동 롯데캐슬더퍼스트의 분양 일정은 중요한 날짜들을 안내하는 핵심
         정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을
         실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리
         진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을
@@ -148,11 +148,11 @@ const BusinessGuide2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>창원의 눈부신 가치 위에</div>
-        <div>창원 자이위브의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전의 눈부신 가치 위에</div>
+        <div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="창원 자이위브 분양일정안내-image1" />
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="대전 가오동 롯데캐슬더퍼스트 분양일정안내-image1" />
 
 
       <Footer />

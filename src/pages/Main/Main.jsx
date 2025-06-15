@@ -47,8 +47,8 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `2,300여세대 랜드마크 창원 두산위브`,
-    text2: `창원을 대표할<br />
+    text1: `2,300여세대 랜드마크 대전 두산위브`,
+    text2: `대전을 대표할<br />
 			      브랜드 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
@@ -196,7 +196,7 @@ const Main = () => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="창원 자이위브-mainimage1"
+              alt="대전 가오동 롯데캐슬더퍼스트-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -210,7 +210,7 @@ const Main = () => {
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>
-                  창원 자이위브
+                  대전 가오동 롯데캐슬더퍼스트
                 </div>
                
               </div>
@@ -222,7 +222,7 @@ const Main = () => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="창원 자이위브 관심고객등록 사진"
+                    alt="대전 가오동 롯데캐슬더퍼스트 관심고객등록 사진"
                   />
                 </button>
               </div>
@@ -238,12 +238,12 @@ const Main = () => {
                   " 방문 예약 고객 전원 신세계상품권 100% 증정 "
                 </div>
                 <div className={styles.text3}>
-                - 창원 중심상업지구 가장인접한 입지
+                - 대전 중심상업지구 가장인접한 입지
               <br />
               - 첨단 종합병원, 의료R＆D센터 도보 5분
               <br />
               - 인근대규모 국민체육센터 건린으로 힐링라이프 실현, 도불산 제황산공원, 태백동 스포츠 파크등
-              <br />- 모두를 누리는 창원 배후수요 핵심주거 타운의 완성
+              <br />- 모두를 누리는 대전 배후수요 핵심주거 타운의 완성
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -260,7 +260,7 @@ const Main = () => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="창원 자이위브 브랜드소개-image2"
+                  alt="대전 가오동 롯데캐슬더퍼스트 브랜드소개-image2"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -274,17 +274,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트<br /> 창원 자이위브</span>
+                  <span>최고의 브랜드 아파트<br /> 대전 가오동 롯데캐슬더퍼스트</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    창원 자이위브가 함께합니다
+                    대전 가오동 롯데캐슬더퍼스트가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="창원 자이위브 입지환경소개-image2" />
+              <img src={section8Img3} alt="대전 가오동 롯데캐슬더퍼스트 입지환경소개-image2" />
             </div>
           </div>
 
@@ -297,7 +297,7 @@ const Main = () => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  창원 자이위브에서 펼쳐집니다
+                  대전 가오동 롯데캐슬더퍼스트에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -317,7 +317,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="창원 자이위브아파트 조감도-image3"
+                alt="대전 가오동 롯데캐슬더퍼스트아파트 조감도-image3"
               />
             </div>
           </div>
@@ -341,8 +341,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="창원 자이위브 브랜드소개-image4" />
-                <div className={styles.text1}>창원 자이위브</div>
+                <img src={section4_Image1} alt="대전 가오동 롯데캐슬더퍼스트 브랜드소개-image4" />
+                <div className={styles.text1}>대전 가오동 롯데캐슬더퍼스트</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -360,7 +360,7 @@ const Main = () => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>창원 자이위브</h2>
+      <h2>대전 가오동 롯데캐슬더퍼스트</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -419,18 +419,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                창원 자이위브<br />
+                대전 가오동 롯데캐슬더퍼스트<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    창원 자이위브가 함께합니다
+                    대전 가오동 롯데캐슬더퍼스트가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="창원 자이위브 오시는길안내-image1" />
+              <img src={map1} alt="대전 가오동 롯데캐슬더퍼스트 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -477,7 +477,7 @@ const Main = () => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="창원 자이위브 mobilemain-image1"
+              alt="대전 가오동 롯데캐슬더퍼스트 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
@@ -490,7 +490,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  창원 자이위브
+                  대전 가오동 롯데캐슬더퍼스트
                 </div>
 
               </div>
@@ -503,12 +503,12 @@ const Main = () => {
               "방문예약을 하시면 신세계 상품권 100% 증정 "
             </div>
             <div className={styles.text3}>
-              - 창원 중심상업지구 가장인접한 입지
+              - 대전 중심상업지구 가장인접한 입지
               <br />
               - 첨단 종합병원, 의료R＆D센터 도보 5분
               <br />
               - 인근대규모 국민체육센터 건린으로 힐링라이프 실현, 도불산 제황산공원, 태백동 스포츠 파크등
-              <br />- 모두를 누리는 창원 배후수요 핵심주거 타운의 완성
+              <br />- 모두를 누리는 대전 배후수요 핵심주거 타운의 완성
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -528,7 +528,7 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                창원의 중심으로 사는
+                대전의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>
@@ -537,13 +537,13 @@ const Main = () => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  창원 자이위브가 함께합니다
+                  대전 가오동 롯데캐슬더퍼스트가 함께합니다
                 </div>
               </div>
             </div>
             <img
               src={section8Img3}
-              alt="창원 자이위브 mobile입지안내-image1"
+              alt="대전 가오동 롯데캐슬더퍼스트 mobile입지안내-image1"
             />
           </div>
 
@@ -555,19 +555,19 @@ const Main = () => {
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이
                 <br />
-                창원 자이위브에서 펼쳐집니다
+                대전 가오동 롯데캐슬더퍼스트에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 창원 자이위브 <br />
+                프리미엄 주거라이프를 대전 가오동 롯데캐슬더퍼스트 <br />
                 모델하우스에서 확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="창원 자이위브 mobile조감도-image1"
+              alt="대전 가오동 롯데캐슬더퍼스트 mobile조감도-image1"
             />
           </div>
 
@@ -597,7 +597,7 @@ const Main = () => {
             <div>
               <img
                 src={section1_Image1}
-                alt="창원 자이위브 브랜드소개 mobile-image5"
+                alt="대전 가오동 롯데캐슬더퍼스트 브랜드소개 mobile-image5"
               />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
@@ -607,13 +607,13 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="창원 자이위브 오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="대전 가오동 롯데캐슬더퍼스트 오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>창원 자이위브</h2>
+  <h2>대전 가오동 롯데캐슬더퍼스트</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />

@@ -66,15 +66,15 @@ const FloorPlan6 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>창원의 눈부신 가치 위에</div>
-				<div>창원 자이위브의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전의 눈부신 가치 위에</div>
+				<div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="창원 자이위브 84B 평면안내이미지"
+				alt="대전 가오동 롯데캐슬더퍼스트 84B 평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

@@ -60,14 +60,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>창원 자이위브 - 공급안내</title>
+        <title>대전 가오동 롯데캐슬더퍼스트 - 공급안내</title>
         <meta
           name="description"
-          content="창원 자이위브의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 창원 자이위브의 기회를 놓치지 마세요."
+          content="대전 가오동 롯데캐슬더퍼스트의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 가오동 롯데캐슬더퍼스트의 기회를 놓치지 마세요."
         />
         <meta
           name="keywords"
-          content="창원 자이위브, 창원 메가시티 자이위브, 창원 자이위브모델하우스"
+          content="대전 가오동 롯데캐슬더퍼스트, 대전 롯데캐슬더퍼스트, 대전 가오동 롯데캐슬더퍼스트모델하우스"
         />
         <link
           rel="canonical"
@@ -77,11 +77,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="창원 자이위브 - 공급안내"
+          content="대전 가오동 롯데캐슬더퍼스트 - 공급안내"
         />
         <meta
           property="og:description"
-          content="창원 자이위브의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 창원 자이위브의 기회를 놓치지 마세요.	"
+          content="대전 가오동 롯데캐슬더퍼스트의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 가오동 롯데캐슬더퍼스트의 기회를 놓치지 마세요.	"
         />
         <meta
           property="og:image"
@@ -91,17 +91,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://locamobility.co.kr/SalesInfo/guide"
         />
-        <meta property="og:site_name" content="창원 자이위브" />
+        <meta property="og:site_name" content="대전 가오동 롯데캐슬더퍼스트" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="창원 자이위브 - 공급안내"
+          content="대전 가오동 롯데캐슬더퍼스트 - 공급안내"
         />
         <meta
           name="twitter:description"
-          content="창원 자이위브의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 창원 자이위브의 기회를 놓치지 마세요."
+          content="대전 가오동 롯데캐슬더퍼스트의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 가오동 롯데캐슬더퍼스트의 기회를 놓치지 마세요."
         />
         <meta
           name="twitter:image"
@@ -114,7 +114,7 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "창원 자이위브 - 공급안내",		"description": "창원 자이위브의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 창원 자이위브의 기회를 놓치지 마세요.",		"url": "https://locamobility.co.kr/SalesInfo/guide"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "대전 가오동 롯데캐슬더퍼스트 - 공급안내",		"description": "대전 가오동 롯데캐슬더퍼스트의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 가오동 롯데캐슬더퍼스트의 기회를 놓치지 마세요.",		"url": "https://locamobility.co.kr/SalesInfo/guide"	}	`}
         </script>
       </Helmet>
 
@@ -126,25 +126,25 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        창원 자이위브 - 공급안내
+        대전 가오동 롯데캐슬더퍼스트 - 공급안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        창원 자이위브의 인터넷 청약은 간편하고 빠르게 분양에 참여할
+        대전 가오동 롯데캐슬더퍼스트의 인터넷 청약은 간편하고 빠르게 분양에 참여할
         수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며,
         언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를
-        확인하고, 청약을 통해 창원 자이위브의 기회를 놓치지 마세요.
+        확인하고, 청약을 통해 대전 가오동 롯데캐슬더퍼스트의 기회를 놓치지 마세요.
       </p>
 
       <div className={styles.textBox}>
         <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 창원 자이위브</div>
+        <div>소수만 누리는 프리미엄 대전 가오동 롯데캐슬더퍼스트</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
        <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="창원 자이위브청약안내-image1"
+        alt="대전 가오동 롯데캐슬더퍼스트청약안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       /> 
 

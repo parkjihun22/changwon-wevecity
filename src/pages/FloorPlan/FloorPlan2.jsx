@@ -69,20 +69,20 @@ const FloorPlan2 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>창원 자이위브 - 59B 평면안내 </h1>
-			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 창원 자이위브의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+            <h1 className={styles.screenReaderOnly}>대전 가오동 롯데캐슬더퍼스트 - 59B 평면안내 </h1>
+			<p className={styles.screenReaderOnly}>59B타입의평면 안내 페이지는 대전 가오동 롯데캐슬더퍼스트의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
 			</p>
 
 			<div className={styles.textBox}>
-				<div>창원의 눈부신 가치 위에</div>
-				<div>창원 자이위브의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전의 눈부신 가치 위에</div>
+				<div>대전 가오동 롯데캐슬더퍼스트의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="창원 자이위브 54B 평면안내이미지"
+				alt="대전 가오동 롯데캐슬더퍼스트 54B 평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 
